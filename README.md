@@ -1,4 +1,4 @@
-# hoc-element-table-build
-📥 Build for [hoc-element-table](https://github.com/pdsuwwz/hoc-element-table)
+# hoc-element-affix-build
+📍 Build for [hoc-element-affix](https://github.com/pdsuwwz/hoc-element-affix)
 
-Please see the repo for [hoc-element-table](https://github.com/pdsuwwz/hoc-element-table) and using [@hoc-element/table](https://www.npmjs.com/package/@hoc-element/table) in your own projects.
+Please see the repo for [hoc-element-affix](https://github.com/pdsuwwz/hoc-element-affix) and using [@hoc-element/affix](https://www.npmjs.com/package/@hoc-element/affix) in your own projects.

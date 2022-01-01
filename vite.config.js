@@ -10,7 +10,7 @@ const htmlPlugin = () => {
     transformIndexHtml (html) {
       return html.replace(
         /<title>(.*?)<\/title>/,
-        '<title>📦 @hoc-element/table</title>'
+        '<title>📌 @hoc-element/affix</title>'
       )
     }
   }

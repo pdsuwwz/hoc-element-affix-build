@@ -1,38 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  background-color: #000;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #FCFAF2;
+}
 
-/* theme color */
-$--color-primary: #b38358;
-$--color-success: #52C41A;
-$--color-warning: #FAAD14;
-$--color-danger: #FA5555;
-$--color-info: #909399;
+#nprogress .bar {
+  background: #ffbb00 !important;
+  height: 5px !important;
+}
 
-
-// 按需导入，重写覆盖自己所需样式
-@forward "element-plus/theme-chalk/src/common/var.scss" with (
-  $colors: (
-    "primary": (
-      "base": $--color-primary,
-    ),
-    "success": (
-      "base":  $--color-success,
-    ),
-    "warning": (
-      "base":  $--color-warning,
-    ),
-    "danger": (
-      "base":  $--color-danger,
-    ),
-    "info": (
-      "base":  $--color-info,
-    ),
-    
-  ),
-  $border-radius: (
-    'base': 4px,
-    'small': 2px,
-    'round': 20px,
-    'circle': 100%,
-  ),
-);
-
-@import 'element-plus/theme-chalk/src/index.scss';
+#nprogress .peg {
+  box-shadow: 0 0 10px #ffbb00, 0 0 5px #ffbb00 !important;
+}

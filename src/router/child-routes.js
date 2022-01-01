@@ -4,10 +4,10 @@ const importModule = import.meta.glob('../views/*.vue')
 const childrenRoutes = [
   {
     path: '/',
-    name: 'hoc-element-table',
-    component: importModule['../views/ExampleTable.vue'],
+    name: 'hoc-element-affix',
+    component: importModule['../views/ExampleAffix.vue'],
     meta: {
-      title: '@hoc-element/table'
+      title: '@hoc-element/affix'
     }
   }
 ]
