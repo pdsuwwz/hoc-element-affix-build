@@ -36,26 +36,26 @@
   "dependencies": {
     "@hoc-element/affix": "^1.0.0",
     "nprogress": "^0.2.0",
-    "vue": "^3.2.33",
-    "vue-router": "^4.0.15"
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.10",
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/preset-env": "^7.17.10",
-    "@vitejs/plugin-vue": "^2.3.3",
-    "@vue/compiler-sfc": "^3.2.33",
-    "@vue/test-utils": "^2.0.0-rc.21",
+    "@babel/core": "^7.18.9",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/compiler-sfc": "^3.2.37",
+    "@vue/test-utils": "^2.0.2",
     "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "cross-env": "^7.0.3",
-    "eslint": "^8.15.0",
+    "eslint": "^8.20.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-vue": "9.1.1",
-    "rollup": "^2.72.1",
+    "rollup": "^2.77.0",
     "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.51.0",
-    "vite": "^2.9.9"
+    "sass": "^1.54.0",
+    "vite": "^3.0.2"
   }
 }
