@@ -16,7 +16,7 @@ specifiers:
   eslint-plugin-promise: 6.0.0
   eslint-plugin-vue: 9.7.0
   nprogress: ^0.2.0
-  rollup: ^2.77.0
+  rollup: ^3.0.0
   rollup-plugin-terser: ^7.0.2
   sass: ^1.54.0
   vite: ^3.0.2
@@ -43,8 +43,8 @@ devDependencies:
   eslint-plugin-node: 11.1.0_eslint@8.20.0
   eslint-plugin-promise: 6.0.0_eslint@8.20.0
   eslint-plugin-vue: 9.7.0_eslint@8.20.0
-  rollup: 2.77.0
-  rollup-plugin-terser: 7.0.2_rollup@2.77.0
+  rollup: 3.5.0
+  rollup-plugin-terser: 7.0.2_rollup@3.5.0
   sass: 1.54.0
   vite: 3.0.2_sass@1.54.0
 
@@ -2972,14 +2972,14 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.77.0:
+  /rollup-plugin-terser/7.0.2_rollup@3.5.0:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.18.6
       jest-worker: 26.6.2
-      rollup: 2.77.0
+      rollup: 3.5.0
       serialize-javascript: 4.0.0
       terser: 5.14.2
     dev: true
@@ -2987,6 +2987,14 @@ packages:
   /rollup/2.77.0:
     resolution: {integrity: sha512-vL8xjY4yOQEw79DvyXLijhnhh+R/O9zpF/LEgkCebZFtb6ELeN9H3/2T0r8+mp+fFTBHZ5qGpOpW2ela2zRt3g==}
     engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /rollup/3.5.0:
+    resolution: {integrity: sha512-TYu2L+TGhmNsXCtByont89u+ATQLcDy6A+++PwLXYunRtOm7XnaD+65s1pvewaOxMYR0eOkMXn9/i0saBxxpnQ==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
