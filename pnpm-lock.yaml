@@ -13,7 +13,7 @@ specifiers:
   eslint: ^8.20.0
   eslint-plugin-import: ^2.26.0
   eslint-plugin-node: ^11.1.0
-  eslint-plugin-promise: 6.1.1
+  eslint-plugin-promise: 7.1.0
   eslint-plugin-vue: 9.9.0
   nprogress: ^0.2.0
   rollup: ^3.0.0
@@ -41,7 +41,7 @@ devDependencies:
   eslint: 8.20.0
   eslint-plugin-import: 2.26.0_eslint@8.20.0
   eslint-plugin-node: 11.1.0_eslint@8.20.0
-  eslint-plugin-promise: 6.1.1_eslint@8.20.0
+  eslint-plugin-promise: 7.1.0_eslint@8.20.0
   eslint-plugin-vue: 9.9.0_eslint@8.20.0
   rollup: 3.5.0
   rollup-plugin-terser: 7.0.2_rollup@3.5.0
@@ -2145,11 +2145,11 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-promise/6.1.1_eslint@8.20.0:
-    resolution: {integrity: sha512-tjqWDwVZQo7UIPMeDReOpUgHCmCiH+ePnVT+5zVapL0uuHnegBUs2smM13CzOs2Xb5+MHMRFTs9v24yjba4Oig==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /eslint-plugin-promise/7.1.0_eslint@8.20.0:
+    resolution: {integrity: sha512-8trNmPxdAy3W620WKDpaS65NlM5yAumod6XeC4LOb+jxlkG4IVcp68c6dXY2ev+uT4U1PtG57YDV6EGAXN0GbQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
+      eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
     dependencies:
       eslint: 8.20.0
     dev: true
