@@ -5,7 +5,7 @@ specifiers:
   '@babel/eslint-parser': ^7.18.9
   '@babel/preset-env': ^7.18.9
   '@hoc-element/affix': ^1.0.0
-  '@vitejs/plugin-vue': ^4.0.0
+  '@vitejs/plugin-vue': ^6.0.0
   '@vue/compiler-sfc': ^3.2.37
   '@vue/test-utils': ^2.0.2
   babel-plugin-transform-vite-meta-env: ^1.0.3
@@ -33,7 +33,7 @@ devDependencies:
   '@babel/core': 7.18.9
   '@babel/eslint-parser': 7.18.9_454u7sltq2wfyzqnoclqps3oeu
   '@babel/preset-env': 7.18.9_@babel+core@7.18.9
-  '@vitejs/plugin-vue': 4.0.0_vite@4.0.2+vue@3.2.37
+  '@vitejs/plugin-vue': 6.0.8_vite@4.0.2+vue@3.2.37
   '@vue/compiler-sfc': 3.2.37
   '@vue/test-utils': 2.0.2_vue@3.2.37
   babel-plugin-transform-vite-meta-env: 1.0.3
@@ -1487,6 +1487,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
+  /@rolldown/pluginutils/1.0.1:
+    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+    dev: true
+
   /@types/babel__core/7.1.19:
     resolution: {integrity: sha512-WEOTgRsbYkvA/KCsDwVEGkd7WAr1e3g31VHQ8zy5gul/V1qKullU/BU5I68X5v7V3GnB9eotmom4v5a5gjxorw==}
     dependencies:
@@ -1524,13 +1528,14 @@ packages:
     resolution: {integrity: sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==}
     dev: true
 
-  /@vitejs/plugin-vue/4.0.0_vite@4.0.2+vue@3.2.37:
-    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
+  /@vitejs/plugin-vue/6.0.8_vite@4.0.2+vue@3.2.37:
+    resolution: {integrity: sha512-0ZjgOg7oO6farnNGup7yvoM/YXZV84OZxHAwtflItNa/6zzQyVb5LNxyea3FEKEX2XlagIKzrlH7wwxkKgtiew==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: ^4.0.0
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
       vue: ^3.2.25
     dependencies:
+      '@rolldown/pluginutils': 1.0.1
       vite: 4.0.2_sass@1.54.0
       vue: 3.2.37
     dev: true
